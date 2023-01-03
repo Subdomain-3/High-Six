@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact Form</title>
+    <link rel="stylesheet" href="nice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  </head>
+  <body>
+
+<section class="header">
+<nav>
+         <div class="nav-links" id="navLinks">
+            <ul>
+             
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="yo.html">OUR CONTENT</a></li>
+		<li><a href="about us.html">ABOUT US</a></li>
+   		<li><a href="interact.html">CONTACT US</a></li>
+		<li><a href="events.html">OUR EVENTS</a></li>
+            </ul>
+         </div>
+       </nav>
+
+    <div class="contact-section">
+      <div class="contact-info">
+        <img src="logo.png" alt="Logo" class="center">
+	  <div><i class="fas fa-envelope"></i>ap.arianamae.toledo@apecschools.edu.ph</div>
+
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="send-email.php" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

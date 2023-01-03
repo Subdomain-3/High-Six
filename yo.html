@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+   <title>GROUP 3 PBA</title>
+   <link rel="stylesheet" href="design.css">
+   <link rel="stylesheet" href="second.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&family=Merienda:wght@400;700&family=Poppins:wght@100;200;300;400;600;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+
+   <section class="sub-header">
+      <nav>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="yo.html">OUR CONTENT</a></li>
+		<li><a href="about us.html">ABOUT US</a></li>
+   		<li><a href="interact.html">CONTACT US</a></li>
+		<li><a href="events.html">OUR EVENTS</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>OUR CONTENT</h1>
+	<a href="stream.html" class="hero-btn 1">Design</a>
+   </section>
+
+<section class="needs">
+ <div class="container">
+      <div class="card">
+        <div class="img">
+          <img src="live.png">
+        </div>
+        <div class="top-text">
+          <div class="name">Streaming Content</div>
+        </div>
+        <div class="bottom-text">
+          <div class="text">The stream's content is music. Our stream will feature a "group study" with a carefully chosen music playlist intended to help a person concentrate better.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="audience.png">
+        </div>
+        <div class="top-text">
+          <div class="name">Our Audience</div>
+        </div>
+        <div class="bottom-text">
+          <div class="text">The broadcast's target audience is anyone who finds it easier to focus when music is playing in the background or those who seek company when studying. The first upload schedule will be determined later; it will also be based on what works best for an individual's study schedule. </div>
+        </div>
+      </div>
+
+</section>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
